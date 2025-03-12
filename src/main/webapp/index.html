@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>WebCrawler</title>
+</head>
+<body>
+	<form action="/topo/Topos" method="get">
+		<table style="border: 1px solid;">
+			<tr>
+				<td COLSPAN=2>Scrapping todo el sitio</td>
+			</tr>
+			<tr>
+				<td>Url inicial:</td>
+				<td><input type="text" size="50" name="url"></td>
+			</tr>
+			<tr>
+				<td>Nº páginas a extraer:</td>
+				<td><input type="number" name="paginas"
+					placeholder="multiple of 10" step="10" min="10" max="500"></td>
+			</tr>
+			<tr>
+				<td>Selector paginas:</td>
+				<td><input type="text" size="50" name="selectorentrada"></td>
+			</tr>
+
+			<tr>
+				<td>Tags exclusiones:</td>
+				<td><input type="text" size="50" name="tagsexclusiones"></td>
+			</tr>
+			<tr>
+				<td>Selector entradas:</td>
+				<td><input type="text" size="50" name="entrada"></td>
+			</tr>
+
+			
+			
+			<tr>
+				<td>Copy Selector --> #post-425</td>
+				<td>expreg = 'div[class~=post-[0-9]+]</td>
+			</tr>
+		</table>
+<input type="submit" value="Enviar">
+	</form>
+	
+
+<br>
+
+	<form action="/topo/Topo" method="get">
+		<table style="border: 1px solid;">
+		<tr>
+			<td COLSPAN=2>Una Url</td>
+		</tr>
+			<tr>
+				<td>Url inicial:</td>
+				<td><input type="text" size="50" name="url" value="https://santillop.blogspot.com/2009/07/el-cami-del-tei-chi-al-turbon.html"></td>
+			</tr>
+			<tr>
+				<td>Nº páginas a extraer:</td>
+				<td><input type="number" name="paginas"
+					placeholder="solo 1" step="1" min="1" max="100"></td>
+			</tr>
+			<tr>
+				<td>Selector paginas:</td>
+				<td><input type="text" size="50"  name="selectorentrada"></td>
+			</tr>
+
+			<tr>
+				<td>Tags exclusiones:</td>
+				<td><input type="text" size="50" name="tagsexclusiones"></td>
+			</tr>
+			<tr>
+				<td>Selector entradas:</td>
+				<td><input type="text" size="50" name="entrada"></td>
+			</tr>
+
+			
+			
+			<tr>
+				<td>Copy Selector --> #post-425</td>
+				<td>expreg = 'div[class~=post-[0-9]+]</td>
+			</tr>
+		</table>
+		<input type="submit" value="Enviar">
+	</form>
+		<br>
+	<br>
+	<form action="/topo/Test" method="post">
+		<br> Orientacion:<select
+			name="orientacion">
+			<option name="orientacion" value=""></option>
+			<option name="orientacion" value="N">N</option>
+			<option name="orientacion" value="NE">NE</option>
+			<option name="orientacion" value="E">E</option>
+			<option name="orientacion" value="SE">SE</option>
+			<option name="orientacion" value="S">S</option>
+			<option name="orientacion" value="SO">SO</option>
+			<option name="orientacion" value="O">O</option>
+			<option name="orientacion" value="NO">NO</option>
+		</select> 
+		<br>
+		Coordenades lat/long:
+		<input type="text" size="50" name="coordenades_x" aria-invalid="true">		
+		<input type="submit" value="Enviar test">		
+		
+		
+		<br> <br> <br> <br> <br> Valores 3: <br> <input type="text" name="texto2">
+		<input type="text" name="texto2"> <input type="text"
+			name="texto2"> <br> <input type="submit" value="Enviar">
+	</form>
+	<br>
+	<form action="/topo/TestConnect" method="post">
+	
+	<input type="text" name="database" value="u710927107_Npmvs"> 
+	<input type="text" name="domain"> <br> 
+			<input type="submit" value="TestConnect">
+	</form>
+	
+</body>
+</html>

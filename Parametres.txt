@@ -1,0 +1,43 @@
+Url inicial:		https://elprincepdelesmaduixes.blogspot.com/p/ressenyes2.html
+Nº páginas a extraer:	50
+Selector paginas:	
+Tags exclusiones:	search?,feeds/
+Selector entradas:	subcheck > article > div:nth-child([0-9]+)
+**********************************************************************
+Url inicial:		https://urtohijodelia.blogspot.com  --> 11 pots --> 11 válidos
+Nº páginas a extraer:	30
+Selector paginas:	.html
+Tags exclusiones:	search,feeds/
+Selector entradas:	
+**********************************************************************	
+Url inicial:		https://alpinistasamurai.wordpress.com ---> 23 posts --> 21 válidos
+Nº páginas a extraer:	50
+Selector paginas:	
+Tags exclusiones:	#respond,panoramiques/,about/,feed/,tag/,category/,#,#wrapper,wp-admin,author
+Selector entradas:
+**********************************************************************
+
+
+
+
+
+
+Url inicial:		
+Nº páginas a extraer:	
+Selector paginas:	
+Tags exclusiones:	
+Selector entradas:
+**********************************************************************	
+
+
+post-body-1359404899014581337 > span:nth-child([0-9]) > a
+
+#post-body-1359404899014581337 > span:nth-child(9) > a
+#post-body-1359404899014581337 > a:nth-child(13) > span
+#post-body-1359404899014581337 > span:nth-child(17) > a
+
+explora: https://korkuerika.blogspot.com/search/label/Rese%C3%B1as%20Turb%C3%B3n
+
+
+
+	
